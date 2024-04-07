@@ -16,3 +16,10 @@ export interface RootState {
         user: User;
     };
 }
+
+export interface registerUserValue{
+    name : string,
+    email : string,
+    password : string,
+    picture ?: string,
+}

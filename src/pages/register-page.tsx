@@ -1,5 +1,4 @@
-
-
+import RegistrationForm from "../components/auth/RegistrationForm.tsx";
 
 
 export default function RegisterPage(){
@@ -7,7 +6,7 @@ export default function RegisterPage(){
 
     return(
         <>
-            <h1>register page</h1>
+           <RegistrationForm/>
         </>
     )
 }

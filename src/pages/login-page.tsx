@@ -1,5 +1,4 @@
-
-
+import LoginForm from "../components/auth/LoginForm.tsx";
 
 
 export default function LoginPage(){
@@ -7,7 +6,7 @@ export default function LoginPage(){
 
     return(
         <>
-            <h1>login page</h1>
+            <LoginForm/>
         </>
     )
 }
